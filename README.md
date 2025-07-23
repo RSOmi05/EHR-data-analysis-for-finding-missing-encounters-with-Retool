@@ -1,4 +1,24 @@
-# EHR data analysis for finding missing encounters with Retool
+# Finding missing encounters with Retool #
+
+Two datasets have been provided in CSV format:
+1) Closed Encounters from the Clientʼs EHR: A list of encounters that have been closed in the client's electronic health record EHR.
+2) Imported Closed Encounters: A list of closed encounters that have been successfully imported into Normandy.
+Each dataset contains information about Patient Name, Date of Service, and Rendering Provider, which together form a unique id for an encounter, alongside procedure-level details.
+Some encounters in the clientʼs EHR may not be present in our database, and your task is to identify these missing encounters and come to a conclusion as to why the encounters werenʼt imported.
+
+**Instructions:**
+
+**Task 1: Identifying Missing Encounters**
+	Compare the two datasets and identify which encounters from the Client EHR Closed Encounters file are not found in the Imported Closed Encounters file.
+	Provide a list of these missing encounters in the form of the unique ID mentioned above Patient Name, Date of Service, and Rendering Provider)
+
+**Task 2: Investigating the Cause**
+	Analyze the missing encounters and identify any patterns or reasons why they might not have been imported into the database.
+	Summarize your findings and explain why certain encounters were not imported.
+		Go deep, simply finding counts is not enough.
+
+
+## Investigating potential patterns behind the missing encounters not being imported into the database ##
 
 
 **Analysis 1: Unrecognized or Invalid CPT Codes**

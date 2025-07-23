@@ -1,10 +1,8 @@
 # Finding missing encounters with Retool #
 
 Two datasets have been provided in CSV format:
-1) Closed Encounters from the Clientʼs EHR: A list of encounters that have been closed in the client's electronic health record EHR.
-2) Imported Closed Encounters: A list of closed encounters that have been successfully imported into Normandy.
-Each dataset contains information about Patient Name, Date of Service, and Rendering Provider, which together form a unique id for an encounter, alongside procedure-level details.
-Some encounters in the clientʼs EHR may not be present in our database, and your task is to identify these missing encounters and come to a conclusion as to why the encounters werenʼt imported.
+1) Closed Encounters from the Clientʼs EHR: A list of encounters that have been closed in the client's electronic health record (EHR).
+2) Imported Closed Encounters: A list of closed encounters that have been successfully imported into Normandy. Each dataset contains information about Patient Name, Date of Service, and Rendering Provider, which together form a unique id for an encounter, alongside procedure-level details. Some encounters in the clientʼs EHR may not be present in our database, and the task is to identify these missing encounters and come to a conclusion as to why the encounters werenʼt imported.
 
 **Instructions:**
 
